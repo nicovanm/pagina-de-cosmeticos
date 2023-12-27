@@ -1,0 +1,38 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: #f8d7d7;
+$secondary: #dc136c;
+$dark: #1a1423;
+$success: #857E61;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color: rgb(250, 248, 249);
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$btn-border-radius: 30px;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.special-button{
+    background-color: red;
+}
+
+@import "./carousel";
+@import "./mobile";
+@media (max-width: 412px){
+  #carousel {
+      display: none
+  }
+}
+
+footer {
+  background-color: $dark;
+  height: 60px;
+  margin-top: 60px;
+}
+
+// Then add additional custom code her

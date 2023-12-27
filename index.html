@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizamos bootstrap</title>
+    <link rel="stylesheet" href="styles/css/index.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Makeup</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="#new">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter">Newsletter</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section id="new" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item landing-picture_container active">
+            <div class="landing-picture_first"></div>
+            <!-- <img src="assets/carousel/car-1.avif" class="d-block w-100" alt="assets/"> -->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item landing-picture_container">
+            <div class="landing-picture_second"></div>
+            <!-- <img src="assets/carousel/car-2.avif" class="d-block w-100" alt="assets/"> -->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item landing-picture_container">
+            <div class="landing-picture_third"></div>
+            <!-- <img src="assets/carousel/car-3.avif" class="d-block w-100" alt="assets/"> -->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+    </header>
+    <main>
+      <section id="products">
+        <h2 class="mt-5"> Products </h2>
+        <div class="container-flex justify-content-center align-items-center mt-2">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/carousel/product.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="mx-5 my-5">
+        <h1>Newsletter</h1>
+        <p> Subscribe to our Newsletter to get our latest discounts!</p>
+        <form class="row">
+          <input type="email" class="form-control email-input col-sm-3 m-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <button type="submit" class="btn btn-secondary m-1">Submit</button>
+        </form>
+      </section>
+      
+    </main>
+    <footer class="mt-auto text-white-50">
+      <p>Landing hecha con <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></p>
+    </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
